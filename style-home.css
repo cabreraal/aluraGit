@@ -1,0 +1,47 @@
+.titulo-principal{
+    padding-left: 30px;
+}
+#banner{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+.tituloCentralizado{
+    text-align: center;    
+}
+
+em strong{
+    color: red;
+}
+
+/*el selector de identificador(#) es unico y no me permite reutilizar */ 
+#mision{
+    font-size: 20px;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+
+}
+/*el selector de clase (.) me permite reutilizar */ 
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+/* con seleectores de id puedo crear una propiedad para un id especifico de una etiqueta */
+
+.imagenDiferenciales{
+    width: 50%;
+}
